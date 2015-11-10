@@ -1,6 +1,6 @@
-# maxwilson.github.io
+# maxjw.github.io
 Personal Website
 
 This is my personal website
 
-http://maxwilson.github.io/
+http://maxjw.github.io/
