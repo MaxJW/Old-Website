@@ -1,106 +1,81 @@
 body {
 	background-color: white;
+	margin: 0px;
 }
 
-#header #avatar img {
-	width: 200px;
-	height: 200px;
-	margin-right: 500px;
-	border-radius: 50%;
-
-}
-
-#header #avatar {
-	margin-top: 5px;
-	margin-left: 295px;
-	border-radius: 50%;
-}
-
-#header {
-	width: 795px;
-	background-color: white;
-	margin-top: -380px;
+.top {
+	margin-top: -1000px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 500px;
+	z-index: 1;
+	position: relative;
 }
 
-#headline h1 {
+.bg {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -99;
+}
+
+.avatar img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.headline h1 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 400px;
 	text-align: center;
 }
 
-#social {
-	width: 500px;
-	padding-top: 50px;
-	margin-left: 215px;
-	height: 200px;
-	color: black;
+.headline p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200px;
+	text-align: center;
 }
 
-#twitter {
-	margin-left: 50px;
-	margin-top: -48px;
-	text-decoration: none;
+.social {
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	width:100%;
+	text-align:center;
 }
 
-#github {
-	margin-left: 160px;
-	margin-top: -48px;
-	text-decoration: none;
-}	
-
-#youtube {
-	margin-top: -48px;
-	margin-left: 270px;
-	text-decoration: none;
+.twitter {
+	float:left;
+	width:100px;
 }
 
-#twitter a:link {
-	color: black;
+.github {
+	display: inline-block;
+	margin:0 auto;
+	width:100px;
 }
 
-#twitter a:visited {
-	color: black;
+.youtube {
+	float:right;
+	width:100px;
 }
 
-#twitter a:hover {
-	color: black;
+.twitter a:link {
+	color: white;
 }
 
-#twitter a:active {
-	color: black;
+.twitter a:visited {
+	color: white;
 }
 
-#github a:link {
-	color: black;
+.twitter a:hover {
+	color: white;
 }
 
-#github a:visited {
-	color: black;
+.twitter a:active {
+	color: white;
 }
-
-#github a:hover {
-	color: black;
-}
-
-#github a:active {
-	color: black;
-}
-
-#youtube a:link {
-	color: black;
-}
-
-#youtube a:visited {
-	color: black;
-}
-
-#youtube a:hover {
-	color: black;
-}
-
-#youtube a:active {
-	color: black;
-}
-

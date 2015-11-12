@@ -9,29 +9,42 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
+
 </head>
 
 <body>
+		<div class="bg" data-ibg-bg="img/bg.jpg">
+	<div class="top">
 
-	<div id="header">
-		<div id="avatar">
-			<img src="img/MaxJW.jpg" align="centre">
+			<div class="avatar">
+				<img src="img/MaxJW.jpg" align="middle">
+			</div>
+
+			<div class="headline">
+				<h1>I'm Max Wilson, <br> welcome to my site</h1>
+				<p>This is a test</p>
+			</div>
+
+			<div class="social">
+
+				<div class="twitter">
+					<a href="https://twitter.com/MrTweetDude"><i class="fa fa-twitter fa-4x"></i></a>
+				</div>
+
+				<div class="github">
+					<a href="https://github.com/MaxJW"><i class="fa fa-github fa-4x"></i></a>
+				</div>
+
+				<div class="youtube">
+					<a href="https://www.youtube.com/user/MaxJWilson"><i class="fa fa-youtube-play fa-4x"></i></a>
+				</div>
+			</div>
 		</div>
-		<div id="headline">
-			<h1>I'm Max Wilson, welcome to my site</h1>
-		</div>
-	</div>
-	
-	<div id="social">
-		<div id="twitter">
-			<a href="https://twitter.com/MrTweetDude"><i class="fa fa-twitter fa-4x"></i></a>
-		</div>
-		<div id="github">
-			<a href="https://github.com/MaxJW"><i class="fa fa-github fa-4x"></i></a>
-		</div>
-		<div id="youtube">
-			<a href="https://www.youtube.com/user/MaxJWilson"><i class="fa fa-youtube-play fa-4x"></i></a>
-		</div>
+		<script type="text/javascript">
+			$(".bg").interactive_bg();
+		</script>
 	</div>
 
 </body>
