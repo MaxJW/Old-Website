@@ -26,6 +26,7 @@ body {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+	box-shadow: 4px 3px 182px -19px rgba(0,0,0,0.75);
 }
 
 .headline h1 {
@@ -43,7 +44,7 @@ body {
 }
 
 .social {
-	margin-top: auto;
+	margin-top: 80px;
 	margin-right: auto;
 	margin-left: auto;
 	width:100%;
