@@ -1,0 +1,106 @@
+body {
+	background-color: white;
+}
+
+#header #avatar img {
+	width: 200px;
+	height: 200px;
+	margin-right: 500px;
+	border-radius: 50%;
+
+}
+
+#header #avatar {
+	margin-top: 5px;
+	margin-left: 295px;
+	border-radius: 50%;
+}
+
+#header {
+	width: 795px;
+	background-color: white;
+	margin-top: -380px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headline h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+#social {
+	width: 500px;
+	padding-top: 50px;
+	margin-left: 215px;
+	height: 200px;
+	color: black;
+}
+
+#twitter {
+	margin-left: 50px;
+	margin-top: -48px;
+	text-decoration: none;
+}
+
+#github {
+	margin-left: 160px;
+	margin-top: -48px;
+	text-decoration: none;
+}	
+
+#youtube {
+	margin-top: -48px;
+	margin-left: 270px;
+	text-decoration: none;
+}
+
+#twitter a:link {
+	color: black;
+}
+
+#twitter a:visited {
+	color: black;
+}
+
+#twitter a:hover {
+	color: black;
+}
+
+#twitter a:active {
+	color: black;
+}
+
+#github a:link {
+	color: black;
+}
+
+#github a:visited {
+	color: black;
+}
+
+#github a:hover {
+	color: black;
+}
+
+#github a:active {
+	color: black;
+}
+
+#youtube a:link {
+	color: black;
+}
+
+#youtube a:visited {
+	color: black;
+}
+
+#youtube a:hover {
+	color: black;
+}
+
+#youtube a:active {
+	color: black;
+}
+
