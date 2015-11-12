@@ -32,12 +32,14 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400px;
 	text-align: center;
+	color: white;
 }
 
 .headline p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200px;
 	text-align: center;
+	color: white;
 }
 
 .social {
@@ -77,5 +79,37 @@ body {
 }
 
 .twitter a:active {
+	color: white;
+}
+
+.github a:link {
+	color: white;
+}
+
+.github a:visited {
+	color: white;
+}
+
+.github a:hover {
+	color: white;
+}
+
+.github a:active {
+	color: white;
+}
+
+.youtube a:link {
+	color: white;
+}
+
+.youtube a:visited {
+	color: white;
+}
+
+.youtube a:hover {
+	color: white;
+}
+
+.youtube a:active {
 	color: white;
 }
