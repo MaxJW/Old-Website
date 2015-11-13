@@ -3,12 +3,63 @@ body {
 	margin: 0px;
 }
 
+.arrows {
+	position: fixed;
+	margin-top: -200px;
+	margin-right: auto;
+	margin-left: auto;
+	width:100%;
+	z-index: 1;
+}
+
+.left {
+	float: left;
+	animation-delay: 3s;
+}
+
+.left a:link {
+	color: white;
+}
+
+.left a:visited {
+	color: white;
+}
+
+.left a:hover {
+	color: lightgrey;
+}
+
+.left a:active {
+	color: white;
+}
+
+.right {
+	float: right;
+	animation-delay: 3s;
+}
+
+.right a:link {
+	color: white;
+}
+
+.right a:visited {
+	color: white;
+}
+
+.right a:hover {
+	color: lightgrey;
+}
+
+.right a:active {
+	color: white;
+}
+
 .top {
-	margin-top: -45%;
+	margin-top: -48%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 500px;
-	z-index: 1;
+	z-index: 99;
 	position: relative;
 }
 
@@ -19,6 +70,10 @@ body {
 	z-index: -99;
 }
 
+.avatar {
+	animation-delay: 0.5s;
+}
+
 .avatar img {
 	display: block;
 	margin-left: auto;
@@ -27,6 +82,10 @@ body {
 	height: 200px;
 	border-radius: 50%;
 	box-shadow: 4px 3px 182px -19px rgba(0,0,0,0.75);
+}
+
+.headline {
+		animation-delay: 1.5s;
 }
 
 .headline h1 {
@@ -49,6 +108,7 @@ body {
 	margin-left: auto;
 	width:100%;
 	text-align:center;
+	animation-delay: 2s;
 }
 
 .twitter {

@@ -7,8 +7,9 @@
 	<meta name="description" content="Max Wilson Personal Website">
 	<meta name="author" content="Max Wilson">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.min.css">
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
 </head>
@@ -17,16 +18,16 @@
 	<div class="bg" data-ibg-bg="img/bg.jpg">
 		<div class="top">
 
-			<div class="avatar">
+			<div class="avatar animated rollIn">
 				<img src="img/MaxJW.jpg" align="middle">
 			</div>
 
-			<div class="headline">
+			<div class="headline animated bounceIn">
 				<h1>I'm Max Wilson, <br> welcome to my site</h1>
 				<p>This is a test</p>
 			</div>
 
-			<div class="social">
+			<div class="social animated flipInX">
 
 				<div class="twitter">
 					<a href="https://twitter.com/MrTweetDude"><i class="fa fa-twitter fa-4x"></i></a>
@@ -41,6 +42,16 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="arrows">
+			<div class="left animated fadeInLeft">
+				<a href=""><i class="fa fa-arrow-circle-left fa-4x"></i></a>
+			</div>
+			<div class="right animated fadeInRight">
+				<a href=""><i class="fa fa-arrow-circle-right fa-4x"></i></a>
+			</div>
+		</div>
+
 		<script type="text/javascript">
 			$(".bg").interactive_bg();
 		</script>
