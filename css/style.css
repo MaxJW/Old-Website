@@ -1,6 +1,14 @@
 body {
-	background-color: white;
+	background-color: lightgrey;
 	margin: 0px;
+}
+
+.main {
+	z-index: -99;
+	background-image: url(img/bg.jpg);
+	width: 100%;
+	height: 100%;
+	position: fixed;
 }
 
 .arrows {
@@ -14,6 +22,7 @@ body {
 
 .left {
 	float: left;
+	padding-left: 15px;
 	animation-delay: 3s;
 }
 
@@ -35,6 +44,7 @@ body {
 
 .right {
 	float: right;
+	padding-right: 15px;
 	animation-delay: 3s;
 }
 
@@ -55,19 +65,18 @@ body {
 }
 
 .top {
-	margin-top: -48%;
+	padding-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 500px;
-	z-index: 99;
-	position: relative;
+	z-index: 999;
 }
 
 .bg {
 	height: 100%;
 	width: 100%;
 	position: fixed;
-	z-index: -99;
+	z-index: -999;
 }
 
 .avatar {
@@ -85,7 +94,7 @@ body {
 }
 
 .headline {
-		animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }
 
 .headline h1 {
@@ -111,66 +120,66 @@ body {
 	animation-delay: 2s;
 }
 
-.twitter {
+#twitter {
 	float:left;
 	width:100px;
 }
 
-.github {
+#github {
 	display: inline-block;
-	margin:0 auto;
+	margin: auto;
 	width:100px;
 }
 
-.youtube {
+#youtube {
 	float:right;
 	width:100px;
 }
 
-.twitter a:link {
+#twitter a:link {
 	color: white;
 }
 
-.twitter a:visited {
+#twitter a:visited {
 	color: white;
 }
 
-.twitter a:hover {
+#twitter a:hover {
 	color: white;
 }
 
-.twitter a:active {
+#twitter a:active {
 	color: white;
 }
 
-.github a:link {
+#github a:link {
 	color: white;
 }
 
-.github a:visited {
+#github a:visited {
 	color: white;
 }
 
-.github a:hover {
+#github a:hover {
 	color: white;
 }
 
-.github a:active {
+#github a:active {
 	color: white;
 }
 
-.youtube a:link {
+#youtube a:link {
 	color: white;
 }
 
-.youtube a:visited {
+#youtube a:visited {
 	color: white;
 }
 
-.youtube a:hover {
+#youtube a:hover {
 	color: white;
 }
 
-.youtube a:active {
+#youtube a:active {
 	color: white;
 }
