@@ -51,7 +51,8 @@ body {
 }
 
 .bg {
-	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
 	position: fixed;
 	z-index: -999;
 }
@@ -130,7 +131,7 @@ body {
 }
 
 .links {
-	padding-top: 10%;
+	padding-top: 5%;
 	margin-left: 10%;
 	margin-right: auto;
 	width: 500px;
@@ -151,7 +152,7 @@ body {
 }
 
 .links li {
-	padding: 5%;
+	padding: 8%;
 }
 
 .links a:link, .links a:visited, .links a:hover, .links a:active {
