@@ -70,7 +70,6 @@ body {
 }
 
 .bg {
-background-position: bottom-center;
 	width: 100%;
 	position: fixed;
 	z-index: -999;
