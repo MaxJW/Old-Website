@@ -8,7 +8,7 @@
 	<meta name="author" content="Max Wilson">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/hover.css">
 	<link rel="stylesheet" href="css/animsition.min.css">
@@ -19,43 +19,42 @@
 
 <body>
 	<div class="main animsition" data-animsition-in-class="fade-in-right" data-animsition-out-class="fade-out-right">
-		<img class="bg" src="img/bg.jpg"/>
-		<div class="top">
-
-			<div class="avatar animated bounceInRight">
-				<img src="img/MaxJW.jpg" align="middle">
-			</div>
-
-			<div class="headline animated zoomInDown">
-				<h1>I'm Max Wilson, <br> welcome to my site</h1>
-				<p>This is a test</p>
-			</div>
-
-			<div class="social animated fadeInDown">
-
-				<div id="twitter" class="hvr-grow-rotate">
-					<a href="https://twitter.com/MrTweetDude"><i class="fa fa-twitter fa-4x"></i></a>
-				</div>
-
-				<div id="github" class="hvr-bounce-in">
-					<a href="https://github.com/MaxJW"><i class="fa fa-github fa-4x"></i></a>
-				</div>
-
-				<div id="youtube" class="hvr-buzz-out">
-					<a href="https://www.youtube.com/user/MaxJWilson"><i class="fa fa-youtube-play fa-4x"></i></a>
-				</div>
-			</div>
-		</div>
-
-		<div class="arrows">
-			<div class="right animated fadeInRight">
-				<a href="index" class="animsition-link"><i class="fa fa-arrow-circle-right fa-4x hvr-skew-backward"></i></a>
-			</div>
+		<img class="bg" src="img/links.jpg"/>
+		<div class="links">
+			<ul>
+				<li>
+					<div id="fb" class="hvr-grow-rotate">
+						<a href="https://facebook.com/"><i class="fa fa-facebook-official fa-4x"></i><h1>Facebook</h1></a>
+					</div>
+				</li>
+				<li>
+					<div id="twt" class="hvr-grow-rotate">
+						<a href="https://twitter.com/"><i class="fa fa-twitter fa-4x"></i><h1>Twitter</h1></a>
+					</div>
+				</li>
+				<li>
+					<div id="yt" class="hvr-grow-rotate">
+						<a href="https://youtube.com/"><i class="fa fa-youtube-play fa-4x"></i><h1>Youtube</h1></a>
+					</div>
+				</li>
+				<li>
+					<div id="rdt" class="hvr-grow-rotate">
+						<a href="https://reddit.com/r/all"><i class="fa fa-reddit-alien fa-4x"></i><h1>Reddit</h1></a>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</div>
-	<script type="text/javascript">
-		$(".main").animsition();
-	</script>
+
+	<div class="arrows">
+		<div class="right animated fadeInRight">
+			<a href="index.html" class="animsition-link"><i class="fa fa-arrow-circle-right fa-4x hvr-skew-backward"></i></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(".main").animsition();
+</script>
 </body>
 
 </html>

@@ -23,20 +23,13 @@ body {
 	animation-delay: 3s;
 }
 
-.left a:link {
+.left a:link, .left a:visited, .left a:active, .right a:link, .right a:visited, .right a:active {
 	color: white;
 }
 
-.left a:visited {
-	color: white;
-}
 
 .left a:hover {
 	color: lightgrey;
-}
-
-.left a:active {
-	color: white;
 }
 
 .right {
@@ -45,20 +38,8 @@ body {
 	animation-delay: 3s;
 }
 
-.right a:link {
-	color: white;
-}
-
-.right a:visited {
-	color: white;
-}
-
 .right a:hover {
 	color: lightgrey;
-}
-
-.right a:active {
-	color: white;
 }
 
 .top {
@@ -132,50 +113,48 @@ body {
 	width:100px;
 }
 
-#twitter a:link {
+#twitter a:link, #github a:link, #youtube a:link {
 	color: white;
 }
 
-#twitter a:visited {
+#twitter a:visited, #github a:visited, #youtube a:visited {
 	color: white;
 }
 
-#twitter a:hover {
+#twitter a:hover, #github a:hover, #youtube a:hover {
 	color: white;
 }
 
-#twitter a:active {
+#twitter a:active, #github a:active, #youtube a:active {
 	color: white;
 }
 
-#github a:link {
-	color: white;
+.links {
+	padding-top: 10%;
+	margin-left: 10%;
+	margin-right: auto;
+	width: 500px;
+	z-index: 999;
 }
 
-#github a:visited {
-	color: white;
+.links ul {
+	list-style-type: none;
+	list-style-position: outside;
 }
 
-#github a:hover {
+.links h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400px;
+	padding-left: 50px;
 	color: white;
+	display: inline;
 }
 
-#github a:active {
-	color: white;
+.links li {
+	padding: 5%;
 }
 
-#youtube a:link {
+.links a:link, .links a:visited, .links a:hover, .links a:active {
 	color: white;
-}
-
-#youtube a:visited {
-	color: white;
-}
-
-#youtube a:hover {
-	color: white;
-}
-
-#youtube a:active {
-	color: white;
+	text-decoration: none;
 }
