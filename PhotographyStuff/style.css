@@ -1,0 +1,41 @@
+footer #share-buttons a {
+    text-decoration: none;
+}
+#share-buttons {
+    padding-left: 10px;
+}
+#share-buttons img {
+    width: 50px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+#hAbout {
+    background: url(aboutus.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-attachment: fixed;
+}
+#hFAQ {
+    background: url(faq.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+#hIndex {
+    background: url(index.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+#hEquipment {
+    background: url(equipment.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-attachment: fixed;
+}
+#hEditing {
+    background: url(editing.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    background-attachment: fixed;
+}

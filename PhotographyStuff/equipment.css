@@ -1,0 +1,21 @@
+table tr td {
+    padding: 5px;
+}
+.thumbnail {
+    width: 400px;
+    height: 275px;
+}
+.thumbnail img {
+    height: 80%;
+    width: auto;
+}
+.thumbnail p {
+    text-align: center;
+    font-size: 20px;
+}
+.container table tr td a {
+    text-decoration: none;
+}
+p {
+    font-size: 17px;
+}
